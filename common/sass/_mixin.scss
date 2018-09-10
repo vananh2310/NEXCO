@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+$base_red: #e30920;
+
+@mixin fz($s: 16) {
+  font-size: $s + px;
+  font-size: ($s / 10) + rem;
+}
+
+@mixin Noto_n {
+  font-family: 'Noto Sans', sans-serif;
+}
+@mixin Noto_b {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
